@@ -1,0 +1,2 @@
+C:\Users\Jane\Documents\HandSelection\Temp\UnityVS_obj\Debug\HandSelection.csprojAssemblyReference.cache
+C:\Users\Jane\Documents\HandSelection\Temp\UnityVS_obj\Debug\HandSelection.csproj.CoreCompileInputs.cache
