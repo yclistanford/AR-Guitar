@@ -30,9 +30,11 @@ public class Controller : MonoBehaviour
 
         Vector3 movement = new Vector3(x + (float)0.08, y - (float)0.69, z  + (float)0.42);
         rb.MovePosition(movement);
+        /*
         Debug.Log("Updated.");
         Debug.Log(x);
         Debug.Log(y);
+        */
 
         if (Input.GetKey("up"))
         {
@@ -84,7 +86,7 @@ public class Controller : MonoBehaviour
         try
         {
 
-            socketConnection = new TcpClient("10.34.160.167", 8081);
+            socketConnection = new TcpClient("10.34.163.203", 8080);
 
             Byte[] bytes = new Byte[1024];
 
